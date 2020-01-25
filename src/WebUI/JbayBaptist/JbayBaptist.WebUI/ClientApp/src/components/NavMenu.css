@@ -1,0 +1,72 @@
+﻿@media (min-width:768px) {
+    ul {
+        padding: 0px !important;
+        font-size: 13px !important;
+    }
+
+  .navbar-fixed-top {
+      border-width: 0;
+  }
+
+   .navbar-inverse {
+      background-color: rgba(255,255,255,0.95) !important;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.07) !important;
+  }
+
+      .navbar-inverse .navbar-nav > li > a {
+          color: #444 !important;
+          margin-left: 1px !important;
+          margin-right: 1px !important;
+      }
+
+  .nav-link > a:hover {
+      color: #00aaaa !important;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+      background-color: #00aaaa !important;
+  }
+
+  a.page-scroll.nav-link.active, a.page-scroll.nav-link:hover, a.page-scroll.nav-link:focus {
+      background-color: #00aaaa !important;
+      color: #fff !important;
+  }
+
+  a.page-scroll.nav-link {
+      font-family: 'BebasNeueRegular' !important;
+      font-size: 19px !important;
+  }
+
+  a.page-scroll.nav-link {
+      line-height: 30px !important;
+  }
+
+    .navbar-brand {
+        font-family: Pacifico !important;
+        font-size: 30px !important;
+        color: #444 !important;
+        text-transform: none !important;
+    }
+
+    a.navbar-brand:hover {
+        color: #555 !important;
+    }
+
+    .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+        color: #444 !important;
+    } 
+}
+
+@media (max-width: 992px) {
+    a.page-scroll.nav-link {
+        font-size: 15px !important;
+    }
+
+    .boxservice {
+        width: 100% !important;
+    }
+
+    .whitebox {
+        margin-bottom: 30px !important;
+    }
+}
